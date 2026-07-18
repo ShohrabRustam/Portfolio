@@ -1,0 +1,13 @@
+# GitHub Pages configuration
+# Enable custom 404 page handling
+
+# Use custom 404 page
+404: /404.html
+
+# Disable Jekyll processing (we're using plain HTML)
+# This ensures our custom 404 works properly
+exclude:
+  - README.md
+  - docs/
+  - "*.sh"
+  - .gitignore
